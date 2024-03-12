@@ -3,6 +3,7 @@ fun main() {
     var person ="M"
     println(place)
     println(person)
+//    temp()
 
     var bucket = "bird"
     bucket = "birds"
@@ -79,6 +80,37 @@ fun main() {
     val username = email.split("@")[0]
     println(username)
 
+    val text = "akirachix"
+    println(text.first())
+    println(text[3])
+
+    fun printschool(){
+        var school = "Akirachix"
+        println(school[0])
+        println(school[2])
+        println(school[3])
+
+
+    }
+//    fun area(){
+//        var a =
+//    }
+     
+fun school(word:String){
+    var a = word[0]
+    var b = word[2]
+    var c = word[3]
+    var result = "$a$b$c"
+    println(result)
+
+}
+
+    fun areaOfRectangle(){
+        var length =  20
+        var width  = 30
+        var area = length*width
+        println(area)
+    }
 
 
 
